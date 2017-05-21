@@ -1,0 +1,25 @@
+{
+  "TheCard": {
+    "description": "Card of the-component",
+    "displayName": "TheCard",
+    "methods": []
+  },
+  "TheCardStyle": {
+    "description": "Style for TheCard",
+    "displayName": "TheCardStyle",
+    "methods": [],
+    "props": {
+      "options": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Style options",
+        "defaultValue": {
+          "value": "{}",
+          "computed": false
+        }
+      }
+    }
+  }
+}
