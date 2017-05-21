@@ -64,7 +64,8 @@ TheCardStyle.data = (options) => {
       },
       '.the-twitter-card-snippet': {
         background: 'white',
-        borderRadius: '4px'
+        borderRadius: '2px',
+        padding: '4px'
       },
       '.the-twitter-card-inner': {
         color: 'white',
