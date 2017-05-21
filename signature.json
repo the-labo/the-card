@@ -2,7 +2,36 @@
   "TheCard": {
     "description": "Card of the-component",
     "displayName": "TheCard",
-    "methods": []
+    "methods": [
+      {
+        "name": "Header",
+        "docblock": null,
+        "modifiers": [
+          "static"
+        ],
+        "params": [
+          {
+            "name": "props",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "Body",
+        "docblock": null,
+        "modifiers": [
+          "static"
+        ],
+        "params": [
+          {
+            "name": "props",
+            "type": null
+          }
+        ],
+        "returns": null
+      }
+    ]
   },
   "TheCardStyle": {
     "description": "Style for TheCard",
@@ -19,6 +48,20 @@
           "value": "{}",
           "computed": false
         }
+      }
+    }
+  },
+  "TheTwitterCard": {
+    "description": "Card for twitter",
+    "displayName": "TheTwitterCard",
+    "methods": [],
+    "props": {
+      "snippet": {
+        "type": {
+          "name": "string"
+        },
+        "required": true,
+        "description": "Tweet embed snippet"
       }
     }
   }
