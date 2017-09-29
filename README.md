@@ -134,6 +134,15 @@ Style for TheCard
 | Name | Type | Description | Default |
 | --- | --- | ---- | ---- |
 | `options` | object  | Style options | `{}` |
+### TheTwitterCard
+
+Card for twitter
+
+**Props**
+
+| Name | Type | Description | Default |
+| --- | --- | ---- | ---- |
+| `snippet` | string  | Tweet embed snippet | `` |
 
 
 <!-- Section from "doc/guides/03.Components.md.hbs" End -->
