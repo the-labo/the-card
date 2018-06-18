@@ -14,20 +14,20 @@
     "classnames": "^2.2.6",
     "prop-types": "^15.6.1",
     "the-component-util": "^2.3.0",
-    "the-style": "^2.1.4"
+    "the-style": "^2.1.5"
   },
   "devDependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-router-dom": "^4.3.1",
     "the-component-demo": "^4.0.12",
-    "the-script-build": "^2.1.0",
+    "the-script-build": "^3.1.10",
     "the-script-doc": "^1.0.2",
     "the-script-release": "^1.0.6",
     "the-script-share": "^1.0.5",
     "the-script-test": "^2.1.1",
-    "the-script-update": "^1.0.0",
-    "the-templates": "^2.5.8"
+    "the-script-update": "^2.0.0",
+    "the-templates": "^3.2.1"
   },
   "engines": {
     "node": ">=6",
