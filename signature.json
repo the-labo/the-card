@@ -4,7 +4,7 @@
     "displayName": "TheCard",
     "methods": [
       {
-        "name": "Header",
+        "name": "Body",
         "docblock": null,
         "modifiers": [
           "static"
@@ -18,7 +18,7 @@
         "returns": null
       },
       {
-        "name": "Body",
+        "name": "Header",
         "docblock": null,
         "modifiers": [
           "static"
