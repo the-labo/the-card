@@ -10,8 +10,7 @@ import TheCardStyle from './TheCardStyle'
 import TheTwitterCard from './TheTwitterCard'
 
 export {
-  TheCard,
-  TheCardStyle,
-  TheTwitterCard,
+ TheCard,
+ TheCardStyle,
+ TheTwitterCard,
 }
-
