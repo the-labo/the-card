@@ -9,8 +9,8 @@ import { TheStyle } from 'the-style'
 const TWITTER_COLOR = '#1da1f2'
 
 /** Style for TheCard */
-const TheCardStyle = ({className, id, options}) => (
-  <TheStyle {...{id}}
+const TheCardStyle = ({ className, id, options }) => (
+  <TheStyle {...{ id }}
             className={classnames('the-card-style', className)}
             styles={TheCardStyle.data(options)}
   />
@@ -27,7 +27,7 @@ TheCardStyle.defaultProps = {
 }
 
 TheCardStyle.data = (options) => {
-  const {ThemeValues} = TheStyle
+  const { ThemeValues } = TheStyle
   let {
     contentPadding = ThemeValues.contentPadding,
     contentWidth = ThemeValues.contentWidth,

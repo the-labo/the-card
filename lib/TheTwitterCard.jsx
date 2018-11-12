@@ -13,19 +13,19 @@ import TheCardStyle from './TheCardStyle'
 class TheTwitterCard extends React.PureComponent {
   render () {
     const s = this
-    const {props} = s
+    const { props } = s
     let {
       children,
       className,
       snippet,
     } = props
     return (
-      <TheCard {...htmlAttributesFor(props, {except: [ 'className' ]})}
-               {...eventHandlersFor(props, {except: []})}
+      <TheCard {...htmlAttributesFor(props, { except: [ 'className' ] })}
+               {...eventHandlersFor(props, { except: [] })}
                className={classnames('the-twitter-card', className)}
       >
         <div className='the-twitter-card-snippet'
-             dangerouslySetInnerHTML={{__html: snippet}}
+             dangerouslySetInnerHTML={{ __html: snippet }}
         >
         </div>
         <div className='the-twitter-card-inner'>{children}</div>
