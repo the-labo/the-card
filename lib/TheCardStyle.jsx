@@ -37,16 +37,8 @@ TheCardStyle.data = (options) => {
     textColor = ThemeValues.textColor,
   } = options
   return Object.assign({}, ...[
-    asStyleData('.the-card', {
-      '.the-card-body': {
-        padding: `${contentPadding}px ${contentPadding * 2}px`,
-      },
-      '.the-card-header': {
-        fontWeight: 'normal',
-        margin: 0,
-        padding: `${contentPadding}px ${contentPadding * 2}px`,
-      },
-      '&': {
+    asStyleData({
+      '.the-card': {
         backgroundColor: overlayBackgroundColor,
         border: `1px solid ${overlayBorderColor}`,
         borderRadius: '4px',
@@ -55,8 +47,21 @@ TheCardStyle.data = (options) => {
         margin: '16px 32px',
         maxWidth: contentWidth,
       },
+      '.the-card-body': {
+        padding: `${contentPadding}px ${contentPadding * 2}px`,
+      },
+      '.the-card-header': {
+        fontWeight: 'normal',
+        margin: 0,
+        padding: `${contentPadding}px ${contentPadding * 2}px`,
+      },
     }),
-    asStyleData('.the-twitter-card', {
+    asStyleData({
+      '.the-twitter-card': {
+        backgroundColor: TWITTER_COLOR,
+        border: `4px solid ${TWITTER_COLOR}`,
+        padding: '4px',
+      },
       '.the-twitter-card-inner': {
         color: 'white',
         fontSize: 'smaller',
@@ -70,11 +75,6 @@ TheCardStyle.data = (options) => {
       '.twitter-tweet': {
         margin: 0,
         overflow: 'hidden',
-      },
-      '&': {
-        backgroundColor: TWITTER_COLOR,
-        border: `4px solid ${TWITTER_COLOR}`,
-        padding: '4px',
       },
     })
   ])
